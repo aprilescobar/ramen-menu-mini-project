@@ -9,3 +9,12 @@ The menu items are from <a href="https://www.ichiranusa.com/menu/#menu">ICHIRAN<
 - Multi tab
 - Grid layout
 - Mobile view
+
+
+### Techniques 
+- ES6 
+- React hooks
+- Destructuring Props
+
+## Libraries
+- react-number-format
