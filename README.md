@@ -1,3 +1,11 @@
-# Practicing :)
+# Ramen Menu
 
-Genuinely nothing special, but wanting to rebuild good habits as a software engineer again.
+### Description
+A simple single-page React.JS mini project. 
+
+The menu items are from <a href="https://www.ichiranusa.com/menu/#menu">ICHIRAN</a> while the images were all from Google searches. 
+
+### Features
+- Multi tab
+- Grid layout
+- Mobile view
