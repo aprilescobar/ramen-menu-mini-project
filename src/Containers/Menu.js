@@ -1,15 +1,22 @@
-import React from 'react';
-import ItemCard from '../Components/ItemCard.js';
+import React, { useState} from 'react';
+import DineIn from '../Components/DineIn.js';
+import TakeOut from '../Components/TakeOut.js';
 import MenuItems from '../MenuItems.js';
 
 const Menu = () => {
 
-    const renderItems = () => MenuItems.map(item => item.dineIn && <ItemCard key={item.id + Date.now()} item={item}/>)
+    const [dineIn, setDineIn] = useState(true);
+
+    const renderDineIn = () => <DineIn MenuItems={MenuItems} />
+    const renderTakeOut = () => <TakeOut MenuItems={MenuItems} />
 
     return (
-        <div>
-            Menu
-            {renderItems()}
+        <div id="menu">
+            <h2>Menu</h2>
+            <button onClick={() =>setDineIn(true)}>Dine In</button>            
+            <button onClick={() =>setDineIn(false)}>Take Out</button>   
+
+            {dineIn ? renderDineIn() : renderTakeOut()}        
         </div>
     )
 }
