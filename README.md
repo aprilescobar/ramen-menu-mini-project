@@ -18,4 +18,4 @@ The menu items are from <a href="https://www.ichiranusa.com/menu/#menu">ICHIRAN<
 
 ## Libraries
 - react-number-format
-- Testing, please ignore... again
+- Testing, please ignore
